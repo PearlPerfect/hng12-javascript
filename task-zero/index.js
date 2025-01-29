@@ -8,7 +8,7 @@ const port = process.env.PORT || 8000;
 app.get('/', (req, res) => {
   const email = "imoudoh2025@gmail.com";
   const current_datetime = new Date().toISOString(); // ISO 8601 in UTC
-  const github_url = "https://github.com/yourusername/your-repo"; // Replace with your actual URL
+  const github_url = "https://github.com/PearlPerfect/hng12-javascript";
 
   const response = {
     email,
