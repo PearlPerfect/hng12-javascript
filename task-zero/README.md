@@ -18,7 +18,7 @@ This is a simple public API built with Node.js and Express.js. It returns an ema
 ### Endpoint
 
 `GET http://localhost:8000` for local development sever, or 
-`GET http://yourdomain.com` for production server.
+`GET https://hng12-javascript.vercel.app/` for production server.
 
 ### Request/Response Format
 
