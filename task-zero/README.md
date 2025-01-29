@@ -39,6 +39,6 @@ curl http://localhost:8000
 ```json
 {
   "email": "imoudoh2025@gmail.com",
-  "current_datetime": "2025-01-30T09:30:00Z",  // Example datetime is dynamic
+  "current_datetime": "2025-01-30T09:30:00Z", 
   "github_url": "[Task-github-url](https://github.com/PearlPerfect/hng12-javascript)"
 }
