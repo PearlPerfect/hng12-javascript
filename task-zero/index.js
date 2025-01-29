@@ -1,9 +1,18 @@
 
 const express = require('express');
-
+const cors = require('cors')
 
 const app = express();
 const port = process.env.PORT || 8000;
+
+const corsOptions = {
+  origin: 'https://hng12-javascript.vercel.app/', 
+  methods: ['GET'], 
+};
+
+app.use(cors(corsOptions));
+
+app.use(express.json())
 
 app.get('/', (req, res) => {
   const email = "imoudoh2025@gmail.com";
@@ -16,7 +25,7 @@ app.get('/', (req, res) => {
     github_url,
   };
 
-  res.json(response);
+  res.status(200).json(response);
 });
 
 app.listen(port, () => {
